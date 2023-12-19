@@ -1,0 +1,11 @@
+
+
+server:
+  port: 9090
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5671/eureka
+spring:
+  application:
+    name: API-GATEWAY
